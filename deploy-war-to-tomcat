@@ -5,7 +5,7 @@ node{
    stage('Compile-Package')
    {
     
-      sh "usr/share/maven/bin/mvn packa"
+      sh "usr/share/maven/bin/mvn package"
    }
    stage('Deploy to Tomcat')
    {
